@@ -1,0 +1,108 @@
+        body {
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #333;
+            margin: 1.5rem 0 0.5rem;
+        }
+
+        .info-bar {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+
+        .info-bar a {
+            color: #808080;
+        }
+
+        .btn-añadir {
+            display: inline-block;
+            margin-bottom: 1.2rem;
+            padding: 0.5rem 1.2rem;
+            background-color: #808080;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .btn-añadir:hover {
+            background-color: #666;
+            color: white;
+        }
+
+        .table-wrapper {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            overflow: hidden;
+            margin: 0 auto 2rem;
+            max-width: 1200px;
+        }
+
+        table {
+            margin: 0 !important;
+            border: none !important;
+        }
+
+        thead tr {
+            background-color: #808080;
+            color: white;
+        }
+
+        thead th {
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            padding: 0.85rem 1rem;
+            border: none !important;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #f0f2f5;
+            transition: background 0.15s;
+        }
+
+        tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        tbody td {
+            padding: 0.75rem 1rem;
+            font-size: 0.9rem;
+            color: #444;
+            vertical-align: middle;
+            border: none !important;
+        }
+
+        .btn-edit, .btn-delete {
+            padding: 0.3rem 0.75rem;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            text-decoration: none;
+            margin-right: 4px;
+        }
+
+        .btn-edit {
+            background-color: #e8f0fe;
+            color: #3a6bc4;
+        }
+
+        .btn-edit:hover {
+            background-color: #c9d8f8;
+            color: #3a6bc4;
+        }
+
+        .btn-delete {
+            background-color: #fde8e8;
+            color: #c43a3a;
+        }
+
+        .btn-delete:hover {
+            background-color: #f8c9c9;
+            color: #c43a3a;
+        }
